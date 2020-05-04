@@ -83,3 +83,8 @@ SELECT last_name, COUNT(last_name)
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
+
+-- 1. Import the SQL database into Pandas. (Yes, you could read the CSVs directly in Pandas, but you are, after all, trying to prove your technical mettle.) This step may require some research. Feel free to use the code below to get started. Be sure to make any necessary modifications for your username, password, host, port, and database name:
+
+
+SELECT * FROM employee WHERE emp_no = 499942
